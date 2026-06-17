@@ -18,7 +18,7 @@ let base = {};
 let state = {
   inventory: [], audit: [], recommendations: [], eventLog: [], activeScenario: null,
   scenarioMultipliers: { STORE: 1, D2C: 1, MYN: 1, NYK: 1, AMZ: 1 },
-  paused: false, approvedValue: 0, manualHoursSaved: 0
+  paused: false, approvedValue: 0, manualHoursSaved: 0, telemetry: []
 };
 const $ = (id) => document.getElementById(id);
 const fmt = new Intl.NumberFormat('en-IN');
@@ -64,6 +64,7 @@ function restoreState() {
   state.eventLog = [];
   state.approvedValue = 0;
   state.manualHoursSaved = 0;
+  state.telemetry = [];
 }
 
 function saveState() {
@@ -75,7 +76,8 @@ function saveState() {
     activeScenario: state.activeScenario,
     scenarioMultipliers: state.scenarioMultipliers,
     approvedValue: state.approvedValue,
-    manualHoursSaved: state.manualHoursSaved
+    manualHoursSaved: state.manualHoursSaved,
+    telemetry: state.telemetry.slice(-90)
   };
   localStorage.setItem(STORAGE_KEY, JSON.stringify(compact));
 }
@@ -144,7 +146,8 @@ function getExportPayload() {
       audit: state.audit,
       eventLog: state.eventLog,
       approvedValue: state.approvedValue,
-      manualHoursSaved: state.manualHoursSaved
+      manualHoursSaved: state.manualHoursSaved,
+      telemetry: state.telemetry
     }
   };
 }
@@ -164,7 +167,7 @@ function populateFilters() {
 }
 
 function renderAll() {
-  renderKpis(); renderScenarios(); renderFeed(); renderRiskRadar(); renderAgentGrid(); renderRecommendations(); renderRetailTwin(); renderVariances(); renderImpact(); renderAudit(); renderDataRoom(); renderHistoryChart();
+  renderKpis(); renderScenarios(); renderFeed(); renderTelemetryGraph(); renderRiskRadar(); renderAgentGrid(); renderRecommendations(); renderRetailTwin(); renderVariances(); renderImpact(); renderAudit(); renderDataRoom(); renderHistoryChart();
 }
 
 function renderKpis() {
@@ -381,6 +384,79 @@ function renderFeed() {
   $('eventFeed').innerHTML = state.eventLog.slice(0, 28).map(e => `<div class="feed-item"><time>${e.time}</time><strong>${e.agent}</strong><span>${e.message}</span></div>`).join('');
 }
 
+function addTelemetryPoint(sourceRisk) {
+  const risks = getRiskRecords();
+  const risk = sourceRisk || risks[0];
+  const criticalCount = risks.filter(r => r.hoursCover < 24).length;
+  const riskPressure = Math.min(100, Math.round((risk?.riskScore || 0) * 1.7 + criticalCount * 3 + Math.random() * 8));
+  const agentAction = Math.min(100, Math.round(42 + state.recommendations.filter(r => r.status !== 'Rejected').length * 6 + Math.random() * 28));
+  const freshness = Math.max(12, Math.min(100, Math.round(92 - Math.random() * 22 + (state.activeScenario ? 5 : 0))));
+  state.telemetry.push({ ts: Date.now(), riskPressure, agentAction, freshness });
+  state.telemetry = state.telemetry.slice(-90);
+  saveState();
+}
+
+function ensureTelemetry() {
+  if (state.telemetry?.length) return;
+  for (let i = 40; i >= 0; i--) {
+    state.telemetry.push({
+      ts: Date.now() - i * 5200,
+      riskPressure: Math.round(32 + Math.sin(i / 3) * 12 + Math.random() * 18),
+      agentAction: Math.round(44 + Math.cos(i / 4) * 10 + Math.random() * 16),
+      freshness: Math.round(76 + Math.sin(i / 5) * 8 + Math.random() * 10)
+    });
+  }
+}
+
+function renderTelemetryGraph() {
+  ensureTelemetry();
+  const canvas = $('telemetryGraph');
+  if (!canvas) return;
+  const ctx = canvas.getContext('2d');
+  const w = canvas.width, h = canvas.height, pad = 18;
+  ctx.clearRect(0, 0, w, h);
+  const latest = state.telemetry[state.telemetry.length - 1];
+  $('telemetryPulseValue').textContent = `${latest.riskPressure}%`;
+
+  const gradient = ctx.createLinearGradient(0, 0, 0, h);
+  gradient.addColorStop(0, 'rgba(82, 168, 255, .12)');
+  gradient.addColorStop(1, 'rgba(216, 167, 74, .03)');
+  ctx.fillStyle = gradient;
+  ctx.fillRect(0, 0, w, h);
+
+  ctx.strokeStyle = 'rgba(255,255,255,.08)';
+  ctx.lineWidth = 1;
+  for (let i = 1; i < 4; i++) {
+    const y = pad + i * ((h - pad * 2) / 4);
+    ctx.beginPath(); ctx.moveTo(pad, y); ctx.lineTo(w - pad, y); ctx.stroke();
+  }
+
+  const series = [
+    ['riskPressure', '#d8a74a'],
+    ['agentAction', '#56d69b'],
+    ['freshness', '#52a8ff']
+  ];
+  const samples = state.telemetry.slice(-54);
+  const x = i => pad + i * ((w - pad * 2) / Math.max(1, samples.length - 1));
+  const y = v => h - pad - (Math.max(0, Math.min(100, v)) / 100) * (h - pad * 2);
+  series.forEach(([key, color]) => {
+    ctx.beginPath();
+    samples.forEach((point, i) => {
+      const px = x(i), py = y(point[key]);
+      if (i) ctx.lineTo(px, py); else ctx.moveTo(px, py);
+    });
+    ctx.strokeStyle = color;
+    ctx.lineWidth = key === 'riskPressure' ? 3 : 2;
+    ctx.shadowColor = color;
+    ctx.shadowBlur = 10;
+    ctx.stroke();
+    ctx.shadowBlur = 0;
+  });
+  ctx.fillStyle = '#ecf3ff';
+  ctx.font = '700 11px Inter, Segoe UI, Arial';
+  ctx.fillText('Now', w - 42, h - 8);
+}
+
 function renderDataRoom() {
   const links = [
     ['stores.csv','50-store India footprint'], ['sku_catalog.csv','Hero and core SKU-size catalogue'], ['inventory_snapshot.csv','Synthetic SAP / POS / WMS inventory'], ['sales_history.csv','120-day historical sales feed'], ['historical_kpis.csv','90-day KPI baseline'], ['inventory_variances.csv','Vision cycle count exceptions'], ['returns_history.csv','Returns grading history'], ['../manifest.json','JSON manifest']
@@ -419,7 +495,8 @@ function startRealtimeLoop() {
       `Audit heartbeat saved. Pipeline freshness simulated at ${(2+Math.random()*2.8).toFixed(1)} minutes.`
     ];
     pushEvent(agents[Math.floor(Math.random()*agents.length)], messages[Math.floor(Math.random()*messages.length)]);
-    renderKpis(); renderFeed(); renderRiskRadar();
+    addTelemetryPoint(top);
+    renderKpis(); renderFeed(); renderTelemetryGraph(); renderRiskRadar();
   }, 5200);
 }
 
