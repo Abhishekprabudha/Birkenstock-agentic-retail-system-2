@@ -72,6 +72,18 @@
           </div>
           <button class="ghost small" id="btnPause">Pause</button>
         </div>
+        <div class="telemetry-graph-card" aria-label="Live agent telemetry graph">
+          <div class="telemetry-graph-head">
+            <span>Agent telemetry pulse</span>
+            <strong id="telemetryPulseValue">--</strong>
+          </div>
+          <canvas id="telemetryGraph" width="760" height="180" aria-label="Moving line chart showing agent telemetry in action"></canvas>
+          <div class="telemetry-legend">
+            <span><i class="legend-risk"></i> Risk pressure</span>
+            <span><i class="legend-action"></i> Agent action</span>
+            <span><i class="legend-freshness"></i> Freshness</span>
+          </div>
+        </div>
         <div class="feed" id="eventFeed"></div>
       </div>
     </section>
