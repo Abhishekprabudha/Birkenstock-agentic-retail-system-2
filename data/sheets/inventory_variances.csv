@@ -1,0 +1,37 @@
+variance_id,timestamp,store_id,store_name,sku_id,style,size,expected_units,detected_units,variance_units,vision_confidence_pct,action
+VAR-0001,2026-06-17T10:00:00,STR-003,Nexus Seawoods,GIZ-BLK-39,Gizeh,39,12,10,-2,97.6,Cycle count required
+VAR-0002,2026-06-17T10:07:00,STR-006,Jio World Drive,ARZ-BLK-46,Arizona,46,4,5,1,87.3,Monitor
+VAR-0003,2026-06-17T10:14:00,STR-006,Jio World Drive,ARZ-BLK-39,Arizona,39,5,3,-2,90.2,Cycle count required
+VAR-0004,2026-06-17T10:21:00,STR-001,Phoenix Palladium,MAD-BRN-40,Madrid,40,4,5,1,92.6,Monitor
+VAR-0005,2026-06-17T10:28:00,STR-006,Jio World Drive,MAY-WHT-44,Mayari,44,4,3,-1,89.6,Monitor
+VAR-0006,2026-06-17T10:35:00,STR-003,Nexus Seawoods,BST-TAU-38,Boston,38,4,5,1,92.1,Monitor
+VAR-0007,2026-06-17T10:42:00,STR-021,Sarath City,ARZ-BLK-40,Arizona,40,4,3,-1,96.7,Monitor
+VAR-0008,2026-06-17T10:49:00,STR-004,Linking Road,BST-BLK-39,Boston,39,4,3,-1,91.6,Monitor
+VAR-0009,2026-06-17T10:56:00,STR-039,CG Road,ARZ-BLK-40,Arizona,40,4,2,-2,87.9,Cycle count required
+VAR-0010,2026-06-17T11:03:00,STR-022,Jubilee Hills,GIZ-BLK-43,Gizeh,43,4,1,-3,96.0,Cycle count required
+VAR-0011,2026-06-17T11:10:00,STR-003,Nexus Seawoods,GIZ-BLK-37,Gizeh,37,4,2,-2,88.5,Cycle count required
+VAR-0012,2026-06-17T11:17:00,STR-007,Oberoi Mall,ZUR-GRY-43,Zurich,43,4,2,-2,93.0,Cycle count required
+VAR-0013,2026-06-17T11:24:00,STR-025,Banjara Hills,GIZ-BLK-46,Gizeh,46,4,3,-1,95.9,Monitor
+VAR-0014,2026-06-17T11:31:00,STR-039,CG Road,ARZ-MOC-43,Arizona,43,4,2,-2,91.9,Cycle count required
+VAR-0015,2026-06-17T11:38:00,STR-012,Mall of India,BST-BLK-41,Boston,41,4,5,1,97.5,Monitor
+VAR-0016,2026-06-17T11:45:00,STR-001,Phoenix Palladium,GIZ-BLK-41,Gizeh,41,4,5,1,89.6,Monitor
+VAR-0017,2026-06-17T11:52:00,STR-019,Forum South Bengaluru,BST-TAU-42,Boston,42,5,4,-1,93.0,Monitor
+VAR-0018,2026-06-17T11:59:00,STR-014,CyberHub,BST-TAU-42,Boston,42,5,7,2,88.9,Cycle count required
+VAR-0019,2026-06-17T12:06:00,STR-004,Linking Road,EVA-BLK-41,Arizona EVA,41,4,6,2,91.7,Cycle count required
+VAR-0020,2026-06-17T12:13:00,STR-026,Phoenix Marketcity Chennai,BST-TAU-41,Boston,41,4,3,-1,95.4,Monitor
+VAR-0021,2026-06-17T12:20:00,STR-019,Forum South Bengaluru,ZUR-GRY-37,Zurich,37,4,6,2,97.6,Cycle count required
+VAR-0022,2026-06-17T12:27:00,STR-006,Jio World Drive,GIZ-BLK-36,Gizeh,36,5,6,1,93.0,Monitor
+VAR-0023,2026-06-17T12:34:00,STR-008,Inorbit Malad,EVA-BLK-45,Arizona EVA,45,4,2,-2,90.0,Cycle count required
+VAR-0024,2026-06-17T12:41:00,STR-037,Acropolis Mall,GIZ-BLK-40,Gizeh,40,6,3,-3,97.0,Cycle count required
+VAR-0025,2026-06-17T12:48:00,STR-001,Phoenix Palladium,ARZ-MOC-36,Arizona,36,5,2,-3,88.6,Cycle count required
+VAR-0026,2026-06-17T12:55:00,STR-001,Phoenix Palladium,ARZ-BLK-37,Arizona,37,5,4,-1,97.4,Monitor
+VAR-0027,2026-06-17T13:02:00,STR-043,Sector 17,GIZ-BLK-44,Gizeh,44,4,6,2,93.7,Cycle count required
+VAR-0028,2026-06-17T13:09:00,STR-032,Aundh,MAY-WHT-43,Mayari,43,4,2,-2,95.1,Cycle count required
+VAR-0029,2026-06-17T13:16:00,STR-038,Palladium Ahmedabad,ARZ-BLK-43,Arizona,43,4,2,-2,94.6,Cycle count required
+VAR-0030,2026-06-17T13:23:00,STR-037,Acropolis Mall,ARZ-MOC-42,Arizona,42,4,1,-3,92.2,Cycle count required
+VAR-0031,2026-06-17T13:30:00,STR-024,GVK One,GIZ-BLK-40,Gizeh,40,4,1,-3,89.9,Cycle count required
+VAR-0032,2026-06-17T13:37:00,STR-003,Nexus Seawoods,BST-BLK-46,Boston,46,4,2,-2,97.2,Cycle count required
+VAR-0033,2026-06-17T13:44:00,STR-002,R City Ghatkopar,BST-TAU-40,Boston,40,5,4,-1,92.1,Monitor
+VAR-0034,2026-06-17T13:51:00,STR-002,R City Ghatkopar,ARZ-BLK-40,Arizona,40,5,6,1,92.0,Monitor
+VAR-0035,2026-06-17T13:58:00,STR-007,Oberoi Mall,GIZ-BLK-42,Gizeh,42,6,3,-3,92.0,Cycle count required
+VAR-0036,2026-06-17T14:05:00,STR-006,Jio World Drive,MAD-BRN-43,Madrid,43,4,6,2,94.7,Cycle count required

@@ -1,0 +1,51 @@
+store_id,store_name,city,cluster,tier,latitude,longitude,opening_year,floor_area_sqft,manager,sla_pickup_hours
+STR-001,Phoenix Palladium,Mumbai,Mumbai Priority Cluster,Flagship,19.0923,72.794,2021,520,R. Kapoor,6
+STR-002,R City Ghatkopar,Mumbai,Mumbai Priority Cluster,Premium Retail,19.1078,72.8983,2023,450,N. Shah,12
+STR-003,Nexus Seawoods,Mumbai,Mumbai Priority Cluster,Premium Retail,18.9951,72.805,2020,850,N. Shah,4
+STR-004,Linking Road,Mumbai,Mumbai Priority Cluster,Premium Retail,19.0798,72.9046,2024,850,M. Rao,6
+STR-005,T2 International,Mumbai,Mumbai Priority Cluster,Airport,19.0619,72.8345,2025,450,R. Kapoor,12
+STR-006,Jio World Drive,Mumbai,Mumbai Priority Cluster,Flagship,19.0444,72.8149,2025,600,A. Mehta,4
+STR-007,Oberoi Mall,Mumbai,Mumbai Priority Cluster,Premium Retail,19.0508,72.8474,2021,850,S. Iyer,4
+STR-008,Inorbit Malad,Mumbai,Mumbai Priority Cluster,Premium Retail,19.1068,72.8758,2022,450,N. Shah,8
+STR-009,DLF Promenade,Delhi NCR,Delhi NCR,Premium Retail,28.6027,77.219,2025,600,N. Shah,6
+STR-010,Select Citywalk,Delhi NCR,Delhi NCR,Flagship,28.5827,77.1273,2020,1200,S. Iyer,4
+STR-011,Ambience Gurgaon,Delhi NCR,Delhi NCR,Premium Retail,28.6069,77.2586,2022,600,M. Rao,8
+STR-012,Mall of India,Delhi NCR,Delhi NCR,Premium Retail,28.496,77.1768,2024,600,P. Das,4
+STR-013,Khan Market,Delhi NCR,Delhi NCR,Premium Retail,28.5675,77.1474,2024,520,R. Kapoor,12
+STR-014,CyberHub,Delhi NCR,Delhi NCR,Premium Retail,28.5307,77.2783,2024,1000,N. Shah,6
+STR-015,UB City,Bengaluru,Bengaluru,Premium Retail,12.9995,77.6449,2025,450,R. Kapoor,4
+STR-016,Phoenix Marketcity,Bengaluru,Bengaluru,Premium Retail,13.0188,77.5742,2019,520,N. Shah,8
+STR-017,Orion Mall,Bengaluru,Bengaluru,Premium Retail,12.924,77.5899,2024,700,R. Kapoor,8
+STR-018,Indiranagar,Bengaluru,Bengaluru,Premium Retail,12.9123,77.6292,2023,600,P. Das,12
+STR-019,Forum South Bengaluru,Bengaluru,Bengaluru,Flagship,13.0337,77.5739,2020,520,N. Shah,12
+STR-020,Mall of Asia,Bengaluru,Bengaluru,Premium Retail,12.9045,77.5175,2019,520,P. Das,6
+STR-021,Sarath City,Hyderabad,Hyderabad,Premium Retail,17.4267,78.4675,2019,700,M. Rao,12
+STR-022,Jubilee Hills,Hyderabad,Hyderabad,Premium Retail,17.3847,78.5554,2025,450,P. Das,4
+STR-023,Inorbit Hyderabad,Hyderabad,Hyderabad,Premium Retail,17.4091,78.4859,2021,1200,P. Das,8
+STR-024,GVK One,Hyderabad,Hyderabad,Premium Retail,17.3178,78.4696,2022,450,P. Das,8
+STR-025,Banjara Hills,Hyderabad,Hyderabad,Premium Retail,17.4555,78.5219,2023,450,P. Das,8
+STR-026,Phoenix Marketcity Chennai,Chennai,Chennai,Premium Retail,13.1347,80.2712,2020,520,S. Iyer,6
+STR-027,Express Avenue,Chennai,Chennai,Premium Retail,13.0863,80.3146,2023,450,N. Shah,8
+STR-028,VR Chennai,Chennai,Chennai,Flagship,13.0782,80.2079,2021,1200,S. Iyer,6
+STR-029,Nungambakkam,Chennai,Chennai,Premium Retail,13.0093,80.3305,2019,450,P. Das,12
+STR-030,Phoenix Mall Pune,Pune,Pune,Premium Retail,18.5706,73.9265,2023,1200,R. Kapoor,6
+STR-031,Koregaon Park,Pune,Pune,Premium Retail,18.5456,73.9215,2020,600,N. Shah,12
+STR-032,Aundh,Pune,Pune,Premium Retail,18.5943,73.9186,2025,1000,P. Das,6
+STR-033,Pavilion Mall,Pune,Pune,Premium Retail,18.5541,73.8338,2024,1000,S. Iyer,12
+STR-034,Quest Mall,Kolkata,Kolkata,Premium Retail,22.6339,88.3522,2020,520,A. Mehta,8
+STR-035,South City Mall,Kolkata,Kolkata,Premium Retail,22.4934,88.3686,2023,520,A. Mehta,4
+STR-036,Park Street,Kolkata,Kolkata,Premium Retail,22.6033,88.2894,2019,450,S. Iyer,4
+STR-037,Acropolis Mall,Kolkata,Kolkata,Flagship,22.5723,88.3246,2022,520,N. Shah,6
+STR-038,Palladium Ahmedabad,Ahmedabad,Ahmedabad,Premium Retail,23.0557,72.6312,2023,700,R. Kapoor,12
+STR-039,CG Road,Ahmedabad,Ahmedabad,Premium Retail,23.0692,72.5205,2019,1000,M. Rao,8
+STR-040,Alpha One,Ahmedabad,Ahmedabad,Premium Retail,23.0078,72.5647,2024,450,P. Das,4
+STR-041,Sindhu Bhavan,Ahmedabad,Ahmedabad,Premium Retail,22.9497,72.6065,2025,1200,A. Mehta,6
+STR-042,Elante Mall,Chandigarh,Chandigarh,Premium Retail,30.6807,76.7858,2020,700,R. Kapoor,8
+STR-043,Sector 17,Chandigarh,Chandigarh,Premium Retail,30.724,76.8399,2019,700,N. Shah,4
+STR-044,World Trade Park,Jaipur,Jaipur,Premium Retail,26.8381,75.8699,2025,450,A. Mehta,6
+STR-045,MI Road,Jaipur,Jaipur,Premium Retail,26.8566,75.7877,2020,1200,M. Rao,4
+STR-046,Lulu Mall Lucknow,Lucknow,Lucknow,Flagship,26.7963,80.8703,2022,600,M. Rao,8
+STR-047,Hazratganj,Lucknow,Lucknow,Premium Retail,26.8377,81.0232,2025,850,P. Das,12
+STR-048,Panjim Store,Goa,Goa,Premium Retail,15.4348,73.7875,2019,850,P. Das,4
+STR-049,Airport Goa,Goa,Goa,Airport,15.5297,73.7491,2023,700,N. Shah,6
+STR-050,Lulu Mall Kochi,Kochi,Kochi,Premium Retail,9.8591,76.2713,2025,520,A. Mehta,4

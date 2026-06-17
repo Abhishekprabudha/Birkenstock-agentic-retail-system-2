@@ -1,0 +1,111 @@
+sku_id,style,color,category,size,mrp_inr,gross_margin_pct,tier,full_price_priority,product_image_hint
+ARZ-BLK-36,Arizona,Black,Sandal,36,6990,0.63,hero,True,Arizona Black size 36
+ARZ-BLK-37,Arizona,Black,Sandal,37,6990,0.61,hero,True,Arizona Black size 37
+ARZ-BLK-38,Arizona,Black,Sandal,38,6990,0.61,hero,True,Arizona Black size 38
+ARZ-BLK-39,Arizona,Black,Sandal,39,6990,0.63,hero,True,Arizona Black size 39
+ARZ-BLK-40,Arizona,Black,Sandal,40,6990,0.61,hero,True,Arizona Black size 40
+ARZ-BLK-41,Arizona,Black,Sandal,41,6990,0.62,hero,True,Arizona Black size 41
+ARZ-BLK-42,Arizona,Black,Sandal,42,6990,0.62,hero,True,Arizona Black size 42
+ARZ-BLK-43,Arizona,Black,Sandal,43,6990,0.62,hero,True,Arizona Black size 43
+ARZ-BLK-44,Arizona,Black,Sandal,44,6990,0.62,hero,True,Arizona Black size 44
+ARZ-BLK-45,Arizona,Black,Sandal,45,6990,0.62,hero,True,Arizona Black size 45
+ARZ-BLK-46,Arizona,Black,Sandal,46,6990,0.63,hero,True,Arizona Black size 46
+ARZ-MOC-36,Arizona,Mocha,Sandal,36,6990,0.59,hero,True,Arizona Mocha size 36
+ARZ-MOC-37,Arizona,Mocha,Sandal,37,6990,0.61,hero,True,Arizona Mocha size 37
+ARZ-MOC-38,Arizona,Mocha,Sandal,38,6990,0.59,hero,True,Arizona Mocha size 38
+ARZ-MOC-39,Arizona,Mocha,Sandal,39,6990,0.6,hero,True,Arizona Mocha size 39
+ARZ-MOC-40,Arizona,Mocha,Sandal,40,6990,0.61,hero,True,Arizona Mocha size 40
+ARZ-MOC-41,Arizona,Mocha,Sandal,41,6990,0.59,hero,True,Arizona Mocha size 41
+ARZ-MOC-42,Arizona,Mocha,Sandal,42,6990,0.59,hero,True,Arizona Mocha size 42
+ARZ-MOC-43,Arizona,Mocha,Sandal,43,6990,0.61,hero,True,Arizona Mocha size 43
+ARZ-MOC-44,Arizona,Mocha,Sandal,44,6990,0.59,hero,True,Arizona Mocha size 44
+ARZ-MOC-45,Arizona,Mocha,Sandal,45,6990,0.6,hero,True,Arizona Mocha size 45
+ARZ-MOC-46,Arizona,Mocha,Sandal,46,6990,0.61,hero,True,Arizona Mocha size 46
+BST-TAU-36,Boston,Taupe,Clog,36,9990,0.65,hero,True,Boston Taupe size 36
+BST-TAU-37,Boston,Taupe,Clog,37,9990,0.63,hero,True,Boston Taupe size 37
+BST-TAU-38,Boston,Taupe,Clog,38,9990,0.63,hero,True,Boston Taupe size 38
+BST-TAU-39,Boston,Taupe,Clog,39,9990,0.63,hero,True,Boston Taupe size 39
+BST-TAU-40,Boston,Taupe,Clog,40,9990,0.65,hero,True,Boston Taupe size 40
+BST-TAU-41,Boston,Taupe,Clog,41,9990,0.65,hero,True,Boston Taupe size 41
+BST-TAU-42,Boston,Taupe,Clog,42,9990,0.65,hero,True,Boston Taupe size 42
+BST-TAU-43,Boston,Taupe,Clog,43,9990,0.64,hero,True,Boston Taupe size 43
+BST-TAU-44,Boston,Taupe,Clog,44,9990,0.63,hero,True,Boston Taupe size 44
+BST-TAU-45,Boston,Taupe,Clog,45,9990,0.65,hero,True,Boston Taupe size 45
+BST-TAU-46,Boston,Taupe,Clog,46,9990,0.65,hero,True,Boston Taupe size 46
+BST-BLK-36,Boston,Black,Clog,36,9990,0.63,hero,True,Boston Black size 36
+BST-BLK-37,Boston,Black,Clog,37,9990,0.64,hero,True,Boston Black size 37
+BST-BLK-38,Boston,Black,Clog,38,9990,0.63,hero,True,Boston Black size 38
+BST-BLK-39,Boston,Black,Clog,39,9990,0.62,hero,True,Boston Black size 39
+BST-BLK-40,Boston,Black,Clog,40,9990,0.64,hero,True,Boston Black size 40
+BST-BLK-41,Boston,Black,Clog,41,9990,0.62,hero,True,Boston Black size 41
+BST-BLK-42,Boston,Black,Clog,42,9990,0.63,hero,True,Boston Black size 42
+BST-BLK-43,Boston,Black,Clog,43,9990,0.64,hero,True,Boston Black size 43
+BST-BLK-44,Boston,Black,Clog,44,9990,0.62,hero,True,Boston Black size 44
+BST-BLK-45,Boston,Black,Clog,45,9990,0.62,hero,True,Boston Black size 45
+BST-BLK-46,Boston,Black,Clog,46,9990,0.62,hero,True,Boston Black size 46
+GIZ-BLK-36,Gizeh,Black,Thong Sandal,36,5990,0.58,hero,True,Gizeh Black size 36
+GIZ-BLK-37,Gizeh,Black,Thong Sandal,37,5990,0.57,hero,True,Gizeh Black size 37
+GIZ-BLK-38,Gizeh,Black,Thong Sandal,38,5990,0.58,hero,True,Gizeh Black size 38
+GIZ-BLK-39,Gizeh,Black,Thong Sandal,39,5990,0.59,hero,True,Gizeh Black size 39
+GIZ-BLK-40,Gizeh,Black,Thong Sandal,40,5990,0.57,hero,True,Gizeh Black size 40
+GIZ-BLK-41,Gizeh,Black,Thong Sandal,41,5990,0.58,hero,True,Gizeh Black size 41
+GIZ-BLK-42,Gizeh,Black,Thong Sandal,42,5990,0.57,hero,True,Gizeh Black size 42
+GIZ-BLK-43,Gizeh,Black,Thong Sandal,43,5990,0.58,hero,True,Gizeh Black size 43
+GIZ-BLK-44,Gizeh,Black,Thong Sandal,44,5990,0.59,hero,True,Gizeh Black size 44
+GIZ-BLK-45,Gizeh,Black,Thong Sandal,45,5990,0.59,hero,True,Gizeh Black size 45
+GIZ-BLK-46,Gizeh,Black,Thong Sandal,46,5990,0.57,hero,True,Gizeh Black size 46
+MAD-BRN-36,Madrid,Brown,Sandal,36,5490,0.57,core,True,Madrid Brown size 36
+MAD-BRN-37,Madrid,Brown,Sandal,37,5490,0.56,core,True,Madrid Brown size 37
+MAD-BRN-38,Madrid,Brown,Sandal,38,5490,0.56,core,True,Madrid Brown size 38
+MAD-BRN-39,Madrid,Brown,Sandal,39,5490,0.58,core,True,Madrid Brown size 39
+MAD-BRN-40,Madrid,Brown,Sandal,40,5490,0.57,core,True,Madrid Brown size 40
+MAD-BRN-41,Madrid,Brown,Sandal,41,5490,0.56,core,True,Madrid Brown size 41
+MAD-BRN-42,Madrid,Brown,Sandal,42,5490,0.58,core,True,Madrid Brown size 42
+MAD-BRN-43,Madrid,Brown,Sandal,43,5490,0.57,core,True,Madrid Brown size 43
+MAD-BRN-44,Madrid,Brown,Sandal,44,5490,0.57,core,True,Madrid Brown size 44
+MAD-BRN-45,Madrid,Brown,Sandal,45,5490,0.56,core,True,Madrid Brown size 45
+MAD-BRN-46,Madrid,Brown,Sandal,46,5490,0.56,core,True,Madrid Brown size 46
+MAY-WHT-36,Mayari,White,Sandal,36,7490,0.6,core,True,Mayari White size 36
+MAY-WHT-37,Mayari,White,Sandal,37,7490,0.6,core,True,Mayari White size 37
+MAY-WHT-38,Mayari,White,Sandal,38,7490,0.59,core,True,Mayari White size 38
+MAY-WHT-39,Mayari,White,Sandal,39,7490,0.6,core,True,Mayari White size 39
+MAY-WHT-40,Mayari,White,Sandal,40,7490,0.59,core,True,Mayari White size 40
+MAY-WHT-41,Mayari,White,Sandal,41,7490,0.58,core,True,Mayari White size 41
+MAY-WHT-42,Mayari,White,Sandal,42,7490,0.58,core,True,Mayari White size 42
+MAY-WHT-43,Mayari,White,Sandal,43,7490,0.58,core,True,Mayari White size 43
+MAY-WHT-44,Mayari,White,Sandal,44,7490,0.6,core,True,Mayari White size 44
+MAY-WHT-45,Mayari,White,Sandal,45,7490,0.6,core,True,Mayari White size 45
+MAY-WHT-46,Mayari,White,Sandal,46,7490,0.6,core,True,Mayari White size 46
+MIL-BRN-36,Milano,Brown,Backstrap Sandal,36,8490,0.62,core,True,Milano Brown size 36
+MIL-BRN-37,Milano,Brown,Backstrap Sandal,37,8490,0.6,core,True,Milano Brown size 37
+MIL-BRN-38,Milano,Brown,Backstrap Sandal,38,8490,0.6,core,True,Milano Brown size 38
+MIL-BRN-39,Milano,Brown,Backstrap Sandal,39,8490,0.6,core,True,Milano Brown size 39
+MIL-BRN-40,Milano,Brown,Backstrap Sandal,40,8490,0.62,core,True,Milano Brown size 40
+MIL-BRN-41,Milano,Brown,Backstrap Sandal,41,8490,0.62,core,True,Milano Brown size 41
+MIL-BRN-42,Milano,Brown,Backstrap Sandal,42,8490,0.61,core,True,Milano Brown size 42
+MIL-BRN-43,Milano,Brown,Backstrap Sandal,43,8490,0.61,core,True,Milano Brown size 43
+MIL-BRN-44,Milano,Brown,Backstrap Sandal,44,8490,0.6,core,True,Milano Brown size 44
+MIL-BRN-45,Milano,Brown,Backstrap Sandal,45,8490,0.62,core,True,Milano Brown size 45
+MIL-BRN-46,Milano,Brown,Backstrap Sandal,46,8490,0.62,core,True,Milano Brown size 46
+ZUR-GRY-36,Zurich,Grey,Sandal,36,8990,0.63,core,True,Zurich Grey size 36
+ZUR-GRY-37,Zurich,Grey,Sandal,37,8990,0.63,core,True,Zurich Grey size 37
+ZUR-GRY-38,Zurich,Grey,Sandal,38,8990,0.63,core,True,Zurich Grey size 38
+ZUR-GRY-39,Zurich,Grey,Sandal,39,8990,0.61,core,True,Zurich Grey size 39
+ZUR-GRY-40,Zurich,Grey,Sandal,40,8990,0.63,core,True,Zurich Grey size 40
+ZUR-GRY-41,Zurich,Grey,Sandal,41,8990,0.61,core,True,Zurich Grey size 41
+ZUR-GRY-42,Zurich,Grey,Sandal,42,8990,0.63,core,True,Zurich Grey size 42
+ZUR-GRY-43,Zurich,Grey,Sandal,43,8990,0.63,core,True,Zurich Grey size 43
+ZUR-GRY-44,Zurich,Grey,Sandal,44,8990,0.63,core,True,Zurich Grey size 44
+ZUR-GRY-45,Zurich,Grey,Sandal,45,8990,0.63,core,True,Zurich Grey size 45
+ZUR-GRY-46,Zurich,Grey,Sandal,46,8990,0.61,core,True,Zurich Grey size 46
+EVA-BLK-36,Arizona EVA,Black,Waterproof Sandal,36,4490,0.56,entry,False,Arizona EVA Black size 36
+EVA-BLK-37,Arizona EVA,Black,Waterproof Sandal,37,4490,0.54,entry,False,Arizona EVA Black size 37
+EVA-BLK-38,Arizona EVA,Black,Waterproof Sandal,38,4490,0.56,entry,False,Arizona EVA Black size 38
+EVA-BLK-39,Arizona EVA,Black,Waterproof Sandal,39,4490,0.56,entry,False,Arizona EVA Black size 39
+EVA-BLK-40,Arizona EVA,Black,Waterproof Sandal,40,4490,0.54,entry,False,Arizona EVA Black size 40
+EVA-BLK-41,Arizona EVA,Black,Waterproof Sandal,41,4490,0.56,entry,False,Arizona EVA Black size 41
+EVA-BLK-42,Arizona EVA,Black,Waterproof Sandal,42,4490,0.55,entry,False,Arizona EVA Black size 42
+EVA-BLK-43,Arizona EVA,Black,Waterproof Sandal,43,4490,0.54,entry,False,Arizona EVA Black size 43
+EVA-BLK-44,Arizona EVA,Black,Waterproof Sandal,44,4490,0.56,entry,False,Arizona EVA Black size 44
+EVA-BLK-45,Arizona EVA,Black,Waterproof Sandal,45,4490,0.54,entry,False,Arizona EVA Black size 45
+EVA-BLK-46,Arizona EVA,Black,Waterproof Sandal,46,4490,0.54,entry,False,Arizona EVA Black size 46

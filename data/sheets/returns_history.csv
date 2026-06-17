@@ -1,0 +1,86 @@
+return_id,date,sku_id,style,size,channel_id,condition_grade,restock_signal,estimated_recovery_inr
+RTN-1000,2026-06-11,ZUR-GRY-41,Zurich,41,MYN,Reject,Exception queue,6293
+RTN-1001,2026-05-17,EVA-BLK-44,Arizona EVA,44,AMZ,C - refurbish,Exception queue,3143
+RTN-1002,2026-05-31,BST-BLK-41,Boston,41,AMZ,B - QC clean,Send to QC,6993
+RTN-1003,2026-05-29,MIL-BRN-42,Milano,42,D2C,B - QC clean,Send to QC,5943
+RTN-1004,2026-05-08,ARZ-MOC-38,Arizona,38,AMZ,A - relist immediately,Relist to D2C,6990
+RTN-1005,2026-05-27,EVA-BLK-40,Arizona EVA,40,NYK,B - QC clean,Send to QC,3143
+RTN-1006,2026-05-03,BST-TAU-40,Boston,40,MYN,A - relist immediately,Relist to D2C,9990
+RTN-1007,2026-05-19,BST-BLK-41,Boston,41,AMZ,A - relist immediately,Relist to D2C,9990
+RTN-1008,2026-05-28,MAY-WHT-46,Mayari,46,MYN,B - QC clean,Send to QC,5243
+RTN-1009,2026-05-28,MAY-WHT-43,Mayari,43,AMZ,C - refurbish,Exception queue,5243
+RTN-1010,2026-06-15,GIZ-BLK-39,Gizeh,39,D2C,A - relist immediately,Relist to D2C,5990
+RTN-1011,2026-06-06,EVA-BLK-40,Arizona EVA,40,D2C,A - relist immediately,Relist to D2C,4490
+RTN-1012,2026-06-05,BST-TAU-38,Boston,38,AMZ,C - refurbish,Exception queue,6993
+RTN-1013,2026-05-09,MAD-BRN-45,Madrid,45,NYK,B - QC clean,Send to QC,3842
+RTN-1014,2026-06-14,BST-TAU-38,Boston,38,NYK,B - QC clean,Send to QC,6993
+RTN-1015,2026-05-12,GIZ-BLK-36,Gizeh,36,NYK,A - relist immediately,Relist to D2C,5990
+RTN-1016,2026-05-10,MIL-BRN-40,Milano,40,NYK,A - relist immediately,Relist to D2C,8490
+RTN-1017,2026-06-17,BST-BLK-42,Boston,42,D2C,A - relist immediately,Relist to D2C,9990
+RTN-1018,2026-05-29,BST-TAU-36,Boston,36,MYN,A - relist immediately,Relist to D2C,9990
+RTN-1019,2026-06-05,EVA-BLK-46,Arizona EVA,46,D2C,A - relist immediately,Relist to D2C,4490
+RTN-1020,2026-05-27,MAD-BRN-43,Madrid,43,AMZ,A - relist immediately,Relist to D2C,5490
+RTN-1021,2026-05-03,MAY-WHT-42,Mayari,42,NYK,Reject,Exception queue,5243
+RTN-1022,2026-05-21,MIL-BRN-42,Milano,42,D2C,B - QC clean,Send to QC,5943
+RTN-1023,2026-06-10,ZUR-GRY-41,Zurich,41,D2C,B - QC clean,Send to QC,6293
+RTN-1024,2026-06-12,MAY-WHT-42,Mayari,42,AMZ,B - QC clean,Send to QC,5243
+RTN-1025,2026-06-15,BST-TAU-42,Boston,42,MYN,B - QC clean,Send to QC,6993
+RTN-1026,2026-05-13,GIZ-BLK-36,Gizeh,36,AMZ,A - relist immediately,Relist to D2C,5990
+RTN-1027,2026-05-05,EVA-BLK-37,Arizona EVA,37,D2C,A - relist immediately,Relist to D2C,4490
+RTN-1028,2026-06-02,ARZ-MOC-40,Arizona,40,NYK,C - refurbish,Exception queue,4893
+RTN-1029,2026-05-01,ARZ-BLK-36,Arizona,36,D2C,B - QC clean,Send to QC,4893
+RTN-1030,2026-05-12,MAY-WHT-38,Mayari,38,MYN,C - refurbish,Exception queue,5243
+RTN-1031,2026-05-09,ARZ-BLK-43,Arizona,43,MYN,A - relist immediately,Relist to D2C,6990
+RTN-1032,2026-05-16,ARZ-BLK-41,Arizona,41,AMZ,A - relist immediately,Relist to D2C,6990
+RTN-1033,2026-05-04,GIZ-BLK-41,Gizeh,41,D2C,Reject,Exception queue,4193
+RTN-1034,2026-05-05,BST-BLK-40,Boston,40,NYK,A - relist immediately,Relist to D2C,9990
+RTN-1035,2026-05-01,ARZ-MOC-39,Arizona,39,D2C,B - QC clean,Send to QC,4893
+RTN-1036,2026-06-04,BST-BLK-39,Boston,39,MYN,A - relist immediately,Relist to D2C,9990
+RTN-1037,2026-05-23,BST-BLK-36,Boston,36,D2C,B - QC clean,Send to QC,6993
+RTN-1038,2026-06-01,ZUR-GRY-46,Zurich,46,MYN,A - relist immediately,Relist to D2C,8990
+RTN-1039,2026-05-26,MAY-WHT-42,Mayari,42,NYK,A - relist immediately,Relist to D2C,7490
+RTN-1040,2026-05-26,BST-BLK-44,Boston,44,AMZ,A - relist immediately,Relist to D2C,9990
+RTN-1041,2026-05-03,MAD-BRN-40,Madrid,40,MYN,B - QC clean,Send to QC,3842
+RTN-1042,2026-05-13,MAD-BRN-40,Madrid,40,D2C,C - refurbish,Exception queue,3842
+RTN-1043,2026-05-23,GIZ-BLK-46,Gizeh,46,D2C,A - relist immediately,Relist to D2C,5990
+RTN-1044,2026-05-22,ARZ-MOC-44,Arizona,44,D2C,B - QC clean,Send to QC,4893
+RTN-1045,2026-05-13,GIZ-BLK-42,Gizeh,42,MYN,B - QC clean,Send to QC,4193
+RTN-1046,2026-05-04,ZUR-GRY-42,Zurich,42,AMZ,A - relist immediately,Relist to D2C,8990
+RTN-1047,2026-05-18,ARZ-MOC-44,Arizona,44,D2C,C - refurbish,Exception queue,4893
+RTN-1048,2026-05-28,MIL-BRN-43,Milano,43,AMZ,Reject,Exception queue,5943
+RTN-1049,2026-06-17,EVA-BLK-36,Arizona EVA,36,AMZ,B - QC clean,Send to QC,3143
+RTN-1050,2026-05-25,MAD-BRN-36,Madrid,36,NYK,C - refurbish,Exception queue,3842
+RTN-1051,2026-06-10,GIZ-BLK-40,Gizeh,40,AMZ,A - relist immediately,Relist to D2C,5990
+RTN-1052,2026-05-08,GIZ-BLK-44,Gizeh,44,AMZ,B - QC clean,Send to QC,4193
+RTN-1053,2026-05-20,ARZ-MOC-46,Arizona,46,D2C,B - QC clean,Send to QC,4893
+RTN-1054,2026-05-01,ARZ-BLK-38,Arizona,38,D2C,A - relist immediately,Relist to D2C,6990
+RTN-1055,2026-05-29,BST-TAU-41,Boston,41,AMZ,B - QC clean,Send to QC,6993
+RTN-1056,2026-05-18,BST-TAU-38,Boston,38,NYK,A - relist immediately,Relist to D2C,9990
+RTN-1057,2026-05-31,ZUR-GRY-41,Zurich,41,MYN,A - relist immediately,Relist to D2C,8990
+RTN-1058,2026-05-13,MAD-BRN-45,Madrid,45,MYN,B - QC clean,Send to QC,3842
+RTN-1059,2026-06-16,ARZ-MOC-43,Arizona,43,MYN,A - relist immediately,Relist to D2C,6990
+RTN-1060,2026-05-11,BST-TAU-42,Boston,42,MYN,A - relist immediately,Relist to D2C,9990
+RTN-1061,2026-05-18,BST-TAU-40,Boston,40,AMZ,B - QC clean,Send to QC,6993
+RTN-1062,2026-05-18,ARZ-BLK-41,Arizona,41,D2C,A - relist immediately,Relist to D2C,6990
+RTN-1063,2026-05-24,MAD-BRN-41,Madrid,41,NYK,A - relist immediately,Relist to D2C,5490
+RTN-1064,2026-05-28,MAY-WHT-38,Mayari,38,D2C,Reject,Exception queue,5243
+RTN-1065,2026-05-04,ARZ-BLK-41,Arizona,41,D2C,B - QC clean,Send to QC,4893
+RTN-1066,2026-06-08,ARZ-BLK-38,Arizona,38,D2C,C - refurbish,Exception queue,4893
+RTN-1067,2026-06-03,EVA-BLK-46,Arizona EVA,46,NYK,Reject,Exception queue,3143
+RTN-1068,2026-05-18,ARZ-MOC-45,Arizona,45,NYK,B - QC clean,Send to QC,4893
+RTN-1069,2026-06-09,MIL-BRN-36,Milano,36,MYN,B - QC clean,Send to QC,5943
+RTN-1070,2026-05-20,MIL-BRN-39,Milano,39,D2C,C - refurbish,Exception queue,5943
+RTN-1071,2026-05-26,BST-BLK-39,Boston,39,NYK,A - relist immediately,Relist to D2C,9990
+RTN-1072,2026-05-21,BST-TAU-42,Boston,42,AMZ,A - relist immediately,Relist to D2C,9990
+RTN-1073,2026-06-03,MIL-BRN-40,Milano,40,D2C,A - relist immediately,Relist to D2C,8490
+RTN-1074,2026-05-31,MIL-BRN-42,Milano,42,AMZ,A - relist immediately,Relist to D2C,8490
+RTN-1075,2026-05-30,MAD-BRN-44,Madrid,44,AMZ,B - QC clean,Send to QC,3842
+RTN-1076,2026-05-14,ARZ-MOC-37,Arizona,37,D2C,C - refurbish,Exception queue,4893
+RTN-1077,2026-05-15,MAD-BRN-46,Madrid,46,MYN,C - refurbish,Exception queue,3842
+RTN-1078,2026-06-12,BST-TAU-38,Boston,38,AMZ,A - relist immediately,Relist to D2C,9990
+RTN-1079,2026-06-04,BST-BLK-38,Boston,38,AMZ,A - relist immediately,Relist to D2C,9990
+RTN-1080,2026-05-13,ARZ-BLK-38,Arizona,38,D2C,A - relist immediately,Relist to D2C,6990
+RTN-1081,2026-06-15,BST-TAU-45,Boston,45,AMZ,A - relist immediately,Relist to D2C,9990
+RTN-1082,2026-05-20,EVA-BLK-46,Arizona EVA,46,MYN,A - relist immediately,Relist to D2C,4490
+RTN-1083,2026-05-26,MIL-BRN-37,Milano,37,AMZ,A - relist immediately,Relist to D2C,8490
+RTN-1084,2026-05-05,BST-BLK-44,Boston,44,NYK,A - relist immediately,Relist to D2C,9990
