@@ -1,0 +1,722 @@
+[
+  {
+    "date": "2026-03-01",
+    "fill_rate_pct": 94.5,
+    "stockout_events": 14,
+    "inventory_accuracy_pct": 96.2,
+    "manual_transfer_decisions": 30,
+    "revenue_at_risk_inr_lakh": 19.0
+  },
+  {
+    "date": "2026-03-02",
+    "fill_rate_pct": 94.4,
+    "stockout_events": 20,
+    "inventory_accuracy_pct": 96.5,
+    "manual_transfer_decisions": 37,
+    "revenue_at_risk_inr_lakh": 21.7
+  },
+  {
+    "date": "2026-03-03",
+    "fill_rate_pct": 94.3,
+    "stockout_events": 5,
+    "inventory_accuracy_pct": 96.5,
+    "manual_transfer_decisions": 34,
+    "revenue_at_risk_inr_lakh": 10.3
+  },
+  {
+    "date": "2026-03-04",
+    "fill_rate_pct": 94.4,
+    "stockout_events": 20,
+    "inventory_accuracy_pct": 96.4,
+    "manual_transfer_decisions": 25,
+    "revenue_at_risk_inr_lakh": 10.5
+  },
+  {
+    "date": "2026-03-05",
+    "fill_rate_pct": 95.4,
+    "stockout_events": 25,
+    "inventory_accuracy_pct": 96.5,
+    "manual_transfer_decisions": 22,
+    "revenue_at_risk_inr_lakh": 14.4
+  },
+  {
+    "date": "2026-03-06",
+    "fill_rate_pct": 94.8,
+    "stockout_events": 14,
+    "inventory_accuracy_pct": 96.5,
+    "manual_transfer_decisions": 15,
+    "revenue_at_risk_inr_lakh": 10.3
+  },
+  {
+    "date": "2026-03-07",
+    "fill_rate_pct": 95.6,
+    "stockout_events": 23,
+    "inventory_accuracy_pct": 96.2,
+    "manual_transfer_decisions": 33,
+    "revenue_at_risk_inr_lakh": 20.6
+  },
+  {
+    "date": "2026-03-08",
+    "fill_rate_pct": 95.0,
+    "stockout_events": 21,
+    "inventory_accuracy_pct": 96.6,
+    "manual_transfer_decisions": 28,
+    "revenue_at_risk_inr_lakh": 16.4
+  },
+  {
+    "date": "2026-03-09",
+    "fill_rate_pct": 94.9,
+    "stockout_events": 4,
+    "inventory_accuracy_pct": 96.6,
+    "manual_transfer_decisions": 24,
+    "revenue_at_risk_inr_lakh": 15.3
+  },
+  {
+    "date": "2026-03-10",
+    "fill_rate_pct": 95.3,
+    "stockout_events": 21,
+    "inventory_accuracy_pct": 96.6,
+    "manual_transfer_decisions": 29,
+    "revenue_at_risk_inr_lakh": 15.7
+  },
+  {
+    "date": "2026-03-11",
+    "fill_rate_pct": 96.6,
+    "stockout_events": 20,
+    "inventory_accuracy_pct": 97.0,
+    "manual_transfer_decisions": 16,
+    "revenue_at_risk_inr_lakh": 10.4
+  },
+  {
+    "date": "2026-03-12",
+    "fill_rate_pct": 97.1,
+    "stockout_events": 15,
+    "inventory_accuracy_pct": 96.9,
+    "manual_transfer_decisions": 38,
+    "revenue_at_risk_inr_lakh": 15.5
+  },
+  {
+    "date": "2026-03-13",
+    "fill_rate_pct": 97.1,
+    "stockout_events": 25,
+    "inventory_accuracy_pct": 96.6,
+    "manual_transfer_decisions": 36,
+    "revenue_at_risk_inr_lakh": 12.0
+  },
+  {
+    "date": "2026-03-14",
+    "fill_rate_pct": 95.5,
+    "stockout_events": 14,
+    "inventory_accuracy_pct": 97.3,
+    "manual_transfer_decisions": 29,
+    "revenue_at_risk_inr_lakh": 15.6
+  },
+  {
+    "date": "2026-03-15",
+    "fill_rate_pct": 97.2,
+    "stockout_events": 21,
+    "inventory_accuracy_pct": 97.3,
+    "manual_transfer_decisions": 28,
+    "revenue_at_risk_inr_lakh": 20.8
+  },
+  {
+    "date": "2026-03-16",
+    "fill_rate_pct": 97.1,
+    "stockout_events": 9,
+    "inventory_accuracy_pct": 96.9,
+    "manual_transfer_decisions": 39,
+    "revenue_at_risk_inr_lakh": 16.5
+  },
+  {
+    "date": "2026-03-17",
+    "fill_rate_pct": 96.4,
+    "stockout_events": 17,
+    "inventory_accuracy_pct": 97.4,
+    "manual_transfer_decisions": 25,
+    "revenue_at_risk_inr_lakh": 22.1
+  },
+  {
+    "date": "2026-03-18",
+    "fill_rate_pct": 95.9,
+    "stockout_events": 17,
+    "inventory_accuracy_pct": 97.2,
+    "manual_transfer_decisions": 26,
+    "revenue_at_risk_inr_lakh": 14.1
+  },
+  {
+    "date": "2026-03-19",
+    "fill_rate_pct": 95.9,
+    "stockout_events": 9,
+    "inventory_accuracy_pct": 97.0,
+    "manual_transfer_decisions": 32,
+    "revenue_at_risk_inr_lakh": 14.1
+  },
+  {
+    "date": "2026-03-20",
+    "fill_rate_pct": 95.5,
+    "stockout_events": 12,
+    "inventory_accuracy_pct": 96.8,
+    "manual_transfer_decisions": 27,
+    "revenue_at_risk_inr_lakh": 16.4
+  },
+  {
+    "date": "2026-03-21",
+    "fill_rate_pct": 95.5,
+    "stockout_events": 17,
+    "inventory_accuracy_pct": 97.3,
+    "manual_transfer_decisions": 22,
+    "revenue_at_risk_inr_lakh": 14.8
+  },
+  {
+    "date": "2026-03-22",
+    "fill_rate_pct": 96.7,
+    "stockout_events": 27,
+    "inventory_accuracy_pct": 96.9,
+    "manual_transfer_decisions": 38,
+    "revenue_at_risk_inr_lakh": 20.1
+  },
+  {
+    "date": "2026-03-23",
+    "fill_rate_pct": 96.5,
+    "stockout_events": 21,
+    "inventory_accuracy_pct": 97.0,
+    "manual_transfer_decisions": 20,
+    "revenue_at_risk_inr_lakh": 11.7
+  },
+  {
+    "date": "2026-03-24",
+    "fill_rate_pct": 94.5,
+    "stockout_events": 13,
+    "inventory_accuracy_pct": 97.1,
+    "manual_transfer_decisions": 27,
+    "revenue_at_risk_inr_lakh": 13.7
+  },
+  {
+    "date": "2026-03-25",
+    "fill_rate_pct": 95.7,
+    "stockout_events": 5,
+    "inventory_accuracy_pct": 97.2,
+    "manual_transfer_decisions": 30,
+    "revenue_at_risk_inr_lakh": 25.8
+  },
+  {
+    "date": "2026-03-26",
+    "fill_rate_pct": 95.0,
+    "stockout_events": 21,
+    "inventory_accuracy_pct": 97.2,
+    "manual_transfer_decisions": 38,
+    "revenue_at_risk_inr_lakh": 15.5
+  },
+  {
+    "date": "2026-03-27",
+    "fill_rate_pct": 95.3,
+    "stockout_events": 8,
+    "inventory_accuracy_pct": 97.4,
+    "manual_transfer_decisions": 27,
+    "revenue_at_risk_inr_lakh": 15.7
+  },
+  {
+    "date": "2026-03-28",
+    "fill_rate_pct": 93.5,
+    "stockout_events": 22,
+    "inventory_accuracy_pct": 96.7,
+    "manual_transfer_decisions": 24,
+    "revenue_at_risk_inr_lakh": 15.5
+  },
+  {
+    "date": "2026-03-29",
+    "fill_rate_pct": 94.6,
+    "stockout_events": 18,
+    "inventory_accuracy_pct": 96.9,
+    "manual_transfer_decisions": 41,
+    "revenue_at_risk_inr_lakh": 20.9
+  },
+  {
+    "date": "2026-03-30",
+    "fill_rate_pct": 94.2,
+    "stockout_events": 16,
+    "inventory_accuracy_pct": 96.7,
+    "manual_transfer_decisions": 49,
+    "revenue_at_risk_inr_lakh": 22.3
+  },
+  {
+    "date": "2026-03-31",
+    "fill_rate_pct": 93.8,
+    "stockout_events": 22,
+    "inventory_accuracy_pct": 96.8,
+    "manual_transfer_decisions": 29,
+    "revenue_at_risk_inr_lakh": 17.0
+  },
+  {
+    "date": "2026-04-01",
+    "fill_rate_pct": 94.2,
+    "stockout_events": 6,
+    "inventory_accuracy_pct": 96.7,
+    "manual_transfer_decisions": 40,
+    "revenue_at_risk_inr_lakh": 17.8
+  },
+  {
+    "date": "2026-04-02",
+    "fill_rate_pct": 93.6,
+    "stockout_events": 16,
+    "inventory_accuracy_pct": 96.7,
+    "manual_transfer_decisions": 30,
+    "revenue_at_risk_inr_lakh": 21.1
+  },
+  {
+    "date": "2026-04-03",
+    "fill_rate_pct": 93.2,
+    "stockout_events": 9,
+    "inventory_accuracy_pct": 96.3,
+    "manual_transfer_decisions": 37,
+    "revenue_at_risk_inr_lakh": 11.9
+  },
+  {
+    "date": "2026-04-04",
+    "fill_rate_pct": 93.4,
+    "stockout_events": 11,
+    "inventory_accuracy_pct": 96.8,
+    "manual_transfer_decisions": 28,
+    "revenue_at_risk_inr_lakh": 19.0
+  },
+  {
+    "date": "2026-04-05",
+    "fill_rate_pct": 91.7,
+    "stockout_events": 14,
+    "inventory_accuracy_pct": 96.5,
+    "manual_transfer_decisions": 23,
+    "revenue_at_risk_inr_lakh": 15.5
+  },
+  {
+    "date": "2026-04-06",
+    "fill_rate_pct": 93.0,
+    "stockout_events": 18,
+    "inventory_accuracy_pct": 96.3,
+    "manual_transfer_decisions": 38,
+    "revenue_at_risk_inr_lakh": 13.8
+  },
+  {
+    "date": "2026-04-07",
+    "fill_rate_pct": 91.5,
+    "stockout_events": 17,
+    "inventory_accuracy_pct": 96.3,
+    "manual_transfer_decisions": 19,
+    "revenue_at_risk_inr_lakh": 21.3
+  },
+  {
+    "date": "2026-04-08",
+    "fill_rate_pct": 92.8,
+    "stockout_events": 14,
+    "inventory_accuracy_pct": 96.4,
+    "manual_transfer_decisions": 24,
+    "revenue_at_risk_inr_lakh": 18.3
+  },
+  {
+    "date": "2026-04-09",
+    "fill_rate_pct": 91.3,
+    "stockout_events": 26,
+    "inventory_accuracy_pct": 96.6,
+    "manual_transfer_decisions": 32,
+    "revenue_at_risk_inr_lakh": 24.2
+  },
+  {
+    "date": "2026-04-10",
+    "fill_rate_pct": 91.1,
+    "stockout_events": 5,
+    "inventory_accuracy_pct": 96.4,
+    "manual_transfer_decisions": 31,
+    "revenue_at_risk_inr_lakh": 11.0
+  },
+  {
+    "date": "2026-04-11",
+    "fill_rate_pct": 92.5,
+    "stockout_events": 19,
+    "inventory_accuracy_pct": 96.3,
+    "manual_transfer_decisions": 21,
+    "revenue_at_risk_inr_lakh": 20.0
+  },
+  {
+    "date": "2026-04-12",
+    "fill_rate_pct": 91.0,
+    "stockout_events": 17,
+    "inventory_accuracy_pct": 96.1,
+    "manual_transfer_decisions": 31,
+    "revenue_at_risk_inr_lakh": 13.0
+  },
+  {
+    "date": "2026-04-13",
+    "fill_rate_pct": 91.9,
+    "stockout_events": 16,
+    "inventory_accuracy_pct": 95.9,
+    "manual_transfer_decisions": 19,
+    "revenue_at_risk_inr_lakh": 15.5
+  },
+  {
+    "date": "2026-04-14",
+    "fill_rate_pct": 90.7,
+    "stockout_events": 11,
+    "inventory_accuracy_pct": 96.0,
+    "manual_transfer_decisions": 28,
+    "revenue_at_risk_inr_lakh": 20.7
+  },
+  {
+    "date": "2026-04-15",
+    "fill_rate_pct": 91.4,
+    "stockout_events": 14,
+    "inventory_accuracy_pct": 95.5,
+    "manual_transfer_decisions": 27,
+    "revenue_at_risk_inr_lakh": 9.4
+  },
+  {
+    "date": "2026-04-16",
+    "fill_rate_pct": 91.6,
+    "stockout_events": 15,
+    "inventory_accuracy_pct": 95.7,
+    "manual_transfer_decisions": 30,
+    "revenue_at_risk_inr_lakh": 16.9
+  },
+  {
+    "date": "2026-04-17",
+    "fill_rate_pct": 92.0,
+    "stockout_events": 18,
+    "inventory_accuracy_pct": 95.3,
+    "manual_transfer_decisions": 24,
+    "revenue_at_risk_inr_lakh": 15.0
+  },
+  {
+    "date": "2026-04-18",
+    "fill_rate_pct": 92.4,
+    "stockout_events": 10,
+    "inventory_accuracy_pct": 95.0,
+    "manual_transfer_decisions": 12,
+    "revenue_at_risk_inr_lakh": 13.8
+  },
+  {
+    "date": "2026-04-19",
+    "fill_rate_pct": 92.3,
+    "stockout_events": 18,
+    "inventory_accuracy_pct": 95.7,
+    "manual_transfer_decisions": 28,
+    "revenue_at_risk_inr_lakh": 17.9
+  },
+  {
+    "date": "2026-04-20",
+    "fill_rate_pct": 92.5,
+    "stockout_events": 11,
+    "inventory_accuracy_pct": 95.0,
+    "manual_transfer_decisions": 28,
+    "revenue_at_risk_inr_lakh": 12.7
+  },
+  {
+    "date": "2026-04-21",
+    "fill_rate_pct": 92.7,
+    "stockout_events": 13,
+    "inventory_accuracy_pct": 95.1,
+    "manual_transfer_decisions": 22,
+    "revenue_at_risk_inr_lakh": 15.8
+  },
+  {
+    "date": "2026-04-22",
+    "fill_rate_pct": 93.7,
+    "stockout_events": 17,
+    "inventory_accuracy_pct": 95.2,
+    "manual_transfer_decisions": 18,
+    "revenue_at_risk_inr_lakh": 27.0
+  },
+  {
+    "date": "2026-04-23",
+    "fill_rate_pct": 92.1,
+    "stockout_events": 22,
+    "inventory_accuracy_pct": 94.7,
+    "manual_transfer_decisions": 14,
+    "revenue_at_risk_inr_lakh": 13.1
+  },
+  {
+    "date": "2026-04-24",
+    "fill_rate_pct": 94.3,
+    "stockout_events": 18,
+    "inventory_accuracy_pct": 95.0,
+    "manual_transfer_decisions": 26,
+    "revenue_at_risk_inr_lakh": 10.6
+  },
+  {
+    "date": "2026-04-25",
+    "fill_rate_pct": 92.7,
+    "stockout_events": 13,
+    "inventory_accuracy_pct": 94.9,
+    "manual_transfer_decisions": 15,
+    "revenue_at_risk_inr_lakh": 13.1
+  },
+  {
+    "date": "2026-04-26",
+    "fill_rate_pct": 94.2,
+    "stockout_events": 8,
+    "inventory_accuracy_pct": 94.7,
+    "manual_transfer_decisions": 32,
+    "revenue_at_risk_inr_lakh": 26.0
+  },
+  {
+    "date": "2026-04-27",
+    "fill_rate_pct": 93.8,
+    "stockout_events": 9,
+    "inventory_accuracy_pct": 95.0,
+    "manual_transfer_decisions": 21,
+    "revenue_at_risk_inr_lakh": 6.9
+  },
+  {
+    "date": "2026-04-28",
+    "fill_rate_pct": 94.3,
+    "stockout_events": 20,
+    "inventory_accuracy_pct": 94.6,
+    "manual_transfer_decisions": 26,
+    "revenue_at_risk_inr_lakh": 18.2
+  },
+  {
+    "date": "2026-04-29",
+    "fill_rate_pct": 95.2,
+    "stockout_events": 17,
+    "inventory_accuracy_pct": 94.7,
+    "manual_transfer_decisions": 21,
+    "revenue_at_risk_inr_lakh": 14.1
+  },
+  {
+    "date": "2026-04-30",
+    "fill_rate_pct": 94.5,
+    "stockout_events": 18,
+    "inventory_accuracy_pct": 94.5,
+    "manual_transfer_decisions": 31,
+    "revenue_at_risk_inr_lakh": 14.5
+  },
+  {
+    "date": "2026-05-01",
+    "fill_rate_pct": 95.9,
+    "stockout_events": 17,
+    "inventory_accuracy_pct": 95.0,
+    "manual_transfer_decisions": 34,
+    "revenue_at_risk_inr_lakh": 19.9
+  },
+  {
+    "date": "2026-05-02",
+    "fill_rate_pct": 95.6,
+    "stockout_events": 13,
+    "inventory_accuracy_pct": 95.0,
+    "manual_transfer_decisions": 28,
+    "revenue_at_risk_inr_lakh": 14.1
+  },
+  {
+    "date": "2026-05-03",
+    "fill_rate_pct": 95.4,
+    "stockout_events": 8,
+    "inventory_accuracy_pct": 95.0,
+    "manual_transfer_decisions": 32,
+    "revenue_at_risk_inr_lakh": 13.0
+  },
+  {
+    "date": "2026-05-04",
+    "fill_rate_pct": 96.4,
+    "stockout_events": 18,
+    "inventory_accuracy_pct": 94.5,
+    "manual_transfer_decisions": 16,
+    "revenue_at_risk_inr_lakh": 23.3
+  },
+  {
+    "date": "2026-05-05",
+    "fill_rate_pct": 95.6,
+    "stockout_events": 16,
+    "inventory_accuracy_pct": 94.6,
+    "manual_transfer_decisions": 26,
+    "revenue_at_risk_inr_lakh": 15.5
+  },
+  {
+    "date": "2026-05-06",
+    "fill_rate_pct": 97.1,
+    "stockout_events": 17,
+    "inventory_accuracy_pct": 95.0,
+    "manual_transfer_decisions": 22,
+    "revenue_at_risk_inr_lakh": 17.2
+  },
+  {
+    "date": "2026-05-07",
+    "fill_rate_pct": 95.4,
+    "stockout_events": 19,
+    "inventory_accuracy_pct": 94.6,
+    "manual_transfer_decisions": 45,
+    "revenue_at_risk_inr_lakh": 14.2
+  },
+  {
+    "date": "2026-05-08",
+    "fill_rate_pct": 96.0,
+    "stockout_events": 19,
+    "inventory_accuracy_pct": 95.1,
+    "manual_transfer_decisions": 36,
+    "revenue_at_risk_inr_lakh": 10.9
+  },
+  {
+    "date": "2026-05-09",
+    "fill_rate_pct": 96.3,
+    "stockout_events": 19,
+    "inventory_accuracy_pct": 95.2,
+    "manual_transfer_decisions": 42,
+    "revenue_at_risk_inr_lakh": 10.0
+  },
+  {
+    "date": "2026-05-10",
+    "fill_rate_pct": 95.6,
+    "stockout_events": 12,
+    "inventory_accuracy_pct": 95.4,
+    "manual_transfer_decisions": 26,
+    "revenue_at_risk_inr_lakh": 18.3
+  },
+  {
+    "date": "2026-05-11",
+    "fill_rate_pct": 96.3,
+    "stockout_events": 23,
+    "inventory_accuracy_pct": 94.8,
+    "manual_transfer_decisions": 28,
+    "revenue_at_risk_inr_lakh": 16.5
+  },
+  {
+    "date": "2026-05-12",
+    "fill_rate_pct": 95.5,
+    "stockout_events": 20,
+    "inventory_accuracy_pct": 95.3,
+    "manual_transfer_decisions": 37,
+    "revenue_at_risk_inr_lakh": 22.0
+  },
+  {
+    "date": "2026-05-13",
+    "fill_rate_pct": 97.3,
+    "stockout_events": 17,
+    "inventory_accuracy_pct": 95.1,
+    "manual_transfer_decisions": 34,
+    "revenue_at_risk_inr_lakh": 13.6
+  },
+  {
+    "date": "2026-05-14",
+    "fill_rate_pct": 96.9,
+    "stockout_events": 10,
+    "inventory_accuracy_pct": 95.1,
+    "manual_transfer_decisions": 36,
+    "revenue_at_risk_inr_lakh": 12.9
+  },
+  {
+    "date": "2026-05-15",
+    "fill_rate_pct": 96.3,
+    "stockout_events": 11,
+    "inventory_accuracy_pct": 95.2,
+    "manual_transfer_decisions": 24,
+    "revenue_at_risk_inr_lakh": 12.2
+  },
+  {
+    "date": "2026-05-16",
+    "fill_rate_pct": 97.0,
+    "stockout_events": 14,
+    "inventory_accuracy_pct": 95.7,
+    "manual_transfer_decisions": 25,
+    "revenue_at_risk_inr_lakh": 10.8
+  },
+  {
+    "date": "2026-05-17",
+    "fill_rate_pct": 96.0,
+    "stockout_events": 11,
+    "inventory_accuracy_pct": 95.8,
+    "manual_transfer_decisions": 27,
+    "revenue_at_risk_inr_lakh": 20.2
+  },
+  {
+    "date": "2026-05-18",
+    "fill_rate_pct": 95.4,
+    "stockout_events": 14,
+    "inventory_accuracy_pct": 95.5,
+    "manual_transfer_decisions": 27,
+    "revenue_at_risk_inr_lakh": 6.7
+  },
+  {
+    "date": "2026-05-19",
+    "fill_rate_pct": 95.4,
+    "stockout_events": 9,
+    "inventory_accuracy_pct": 95.5,
+    "manual_transfer_decisions": 35,
+    "revenue_at_risk_inr_lakh": 13.4
+  },
+  {
+    "date": "2026-05-20",
+    "fill_rate_pct": 94.9,
+    "stockout_events": 14,
+    "inventory_accuracy_pct": 95.6,
+    "manual_transfer_decisions": 34,
+    "revenue_at_risk_inr_lakh": 19.7
+  },
+  {
+    "date": "2026-05-21",
+    "fill_rate_pct": 94.9,
+    "stockout_events": 19,
+    "inventory_accuracy_pct": 96.0,
+    "manual_transfer_decisions": 27,
+    "revenue_at_risk_inr_lakh": 18.2
+  },
+  {
+    "date": "2026-05-22",
+    "fill_rate_pct": 95.4,
+    "stockout_events": 10,
+    "inventory_accuracy_pct": 96.1,
+    "manual_transfer_decisions": 26,
+    "revenue_at_risk_inr_lakh": 13.0
+  },
+  {
+    "date": "2026-05-23",
+    "fill_rate_pct": 93.6,
+    "stockout_events": 13,
+    "inventory_accuracy_pct": 96.0,
+    "manual_transfer_decisions": 31,
+    "revenue_at_risk_inr_lakh": 7.8
+  },
+  {
+    "date": "2026-05-24",
+    "fill_rate_pct": 94.2,
+    "stockout_events": 15,
+    "inventory_accuracy_pct": 96.1,
+    "manual_transfer_decisions": 30,
+    "revenue_at_risk_inr_lakh": 18.4
+  },
+  {
+    "date": "2026-05-25",
+    "fill_rate_pct": 93.8,
+    "stockout_events": 12,
+    "inventory_accuracy_pct": 96.7,
+    "manual_transfer_decisions": 19,
+    "revenue_at_risk_inr_lakh": 13.7
+  },
+  {
+    "date": "2026-05-26",
+    "fill_rate_pct": 93.8,
+    "stockout_events": 11,
+    "inventory_accuracy_pct": 96.2,
+    "manual_transfer_decisions": 26,
+    "revenue_at_risk_inr_lakh": 14.0
+  },
+  {
+    "date": "2026-05-27",
+    "fill_rate_pct": 94.3,
+    "stockout_events": 9,
+    "inventory_accuracy_pct": 96.3,
+    "manual_transfer_decisions": 33,
+    "revenue_at_risk_inr_lakh": 18.4
+  },
+  {
+    "date": "2026-05-28",
+    "fill_rate_pct": 92.7,
+    "stockout_events": 21,
+    "inventory_accuracy_pct": 96.6,
+    "manual_transfer_decisions": 40,
+    "revenue_at_risk_inr_lakh": 15.6
+  },
+  {
+    "date": "2026-05-29",
+    "fill_rate_pct": 92.4,
+    "stockout_events": 18,
+    "inventory_accuracy_pct": 96.7,
+    "manual_transfer_decisions": 36,
+    "revenue_at_risk_inr_lakh": 15.2
+  }
+]

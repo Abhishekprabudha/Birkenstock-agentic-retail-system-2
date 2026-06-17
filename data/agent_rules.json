@@ -1,0 +1,30 @@
+{
+  "allocation_policy": [
+    {
+      "rule": "Protect full-price hero SKUs first",
+      "weight": 35
+    },
+    {
+      "rule": "D2C margin and SLA outrank marketplace unless marketplace penalty risk is high",
+      "weight": 25
+    },
+    {
+      "rule": "Do not pull stock from stores with <72 hours cover",
+      "weight": 20
+    },
+    {
+      "rule": "Prefer same-city transfer under 8 hours lead time",
+      "weight": 15
+    },
+    {
+      "rule": "Human approval mandatory when movement exceeds 10 units or source store cover falls below 5 days",
+      "weight": 5
+    }
+  ],
+  "risk_score_formula": "stockout_probability \u00d7 margin_impact \u00d7 demand_velocity \u00d7 channel_priority \u00d7 transfer_feasibility",
+  "approval_thresholds": {
+    "auto_execute_confidence_pct": 95,
+    "human_approval_confidence_pct": 75,
+    "reject_below_confidence_pct": 60
+  }
+}

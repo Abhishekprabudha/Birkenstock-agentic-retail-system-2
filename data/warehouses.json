@@ -1,0 +1,23 @@
+[
+  {
+    "warehouse_id": "WH-MUM-01",
+    "warehouse_name": "Mumbai Omnichannel FC",
+    "city": "Mumbai",
+    "type": "Primary FC",
+    "lead_time_hours_to_mumbai": 6
+  },
+  {
+    "warehouse_id": "WH-DEL-01",
+    "warehouse_name": "NCR Replenishment Hub",
+    "city": "Delhi NCR",
+    "type": "Regional Hub",
+    "lead_time_hours_to_mumbai": 36
+  },
+  {
+    "warehouse_id": "WH-BLR-01",
+    "warehouse_name": "Bengaluru South Hub",
+    "city": "Bengaluru",
+    "type": "Regional Hub",
+    "lead_time_hours_to_mumbai": 48
+  }
+]

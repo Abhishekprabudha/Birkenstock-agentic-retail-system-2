@@ -1,0 +1,18 @@
+[
+  {
+    "audit_id": "AUD-0001",
+    "timestamp": "2026-06-17T09:35:00",
+    "agent": "Demand Sensing Agent",
+    "event": "Baseline loaded",
+    "decision": "Retail twin initialized from synthetic SAP, Shopify, POS, WMS and marketplace feeds",
+    "status": "Complete"
+  },
+  {
+    "audit_id": "AUD-0002",
+    "timestamp": "2026-06-17T09:37:00",
+    "agent": "UniStack AgentOps",
+    "event": "Guardrails loaded",
+    "decision": "Human approval required for transfer movements above threshold",
+    "status": "Complete"
+  }
+]

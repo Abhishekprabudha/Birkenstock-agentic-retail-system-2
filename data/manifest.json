@@ -1,0 +1,21 @@
+{
+  "project": "AIonOS x Birkenstock Agentic Retail System",
+  "mode": "Static GitHub Pages / no backend",
+  "generated_at": "2026-06-17T10:00:00+05:30",
+  "data_files": [
+    "stores.json",
+    "sku_catalog.json",
+    "channels.json",
+    "warehouses.json",
+    "inventory_snapshot.json",
+    "sales_history.json",
+    "historical_kpis.json",
+    "inventory_variances.json",
+    "returns_history.json",
+    "scenarios.json",
+    "agent_rules.json",
+    "audit_log.json"
+  ],
+  "demo_focus": "Arizona / Boston / Gizeh stockout protection across 8 Mumbai stores, D2C and marketplaces",
+  "storage": "JSON files + browser localStorage + export/import current state JSON"
+}

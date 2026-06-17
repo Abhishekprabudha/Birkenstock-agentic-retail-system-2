@@ -1,0 +1,76 @@
+[
+  {
+    "scenario_id": "mumbai_weekend_spike",
+    "name": "Mumbai Weekend Demand Spike",
+    "description": "D2C + marketplace velocity jumps for Boston / Arizona / Gizeh across Mumbai. Agents protect hero SKU fill-rate before online stockout.",
+    "impacted_styles": [
+      "Boston",
+      "Arizona",
+      "Gizeh"
+    ],
+    "channel_multipliers": {
+      "D2C": 2.8,
+      "MYN": 2.1,
+      "AMZ": 1.6,
+      "NYK": 1.4,
+      "STORE": 1.1
+    },
+    "city": "Mumbai",
+    "duration_hours": 18
+  },
+  {
+    "scenario_id": "marketplace_flash_sale",
+    "name": "Marketplace Flash Sale",
+    "description": "Myntra and Amazon orders surge on Arizona Black and Boston Taupe. Allocation agent prioritizes channels by margin + SLA.",
+    "impacted_styles": [
+      "Arizona",
+      "Boston"
+    ],
+    "channel_multipliers": {
+      "D2C": 1.2,
+      "MYN": 3.2,
+      "AMZ": 2.5,
+      "NYK": 1.8,
+      "STORE": 1.0
+    },
+    "city": "All India",
+    "duration_hours": 10
+  },
+  {
+    "scenario_id": "warehouse_receipt_mismatch",
+    "name": "Inbound Receipt Mismatch",
+    "description": "Warehouse vision flags size and count mismatch before stock becomes available to promise.",
+    "impacted_styles": [
+      "Gizeh",
+      "Madrid"
+    ],
+    "channel_multipliers": {
+      "D2C": 1.0,
+      "MYN": 1.0,
+      "AMZ": 1.0,
+      "NYK": 1.0,
+      "STORE": 1.0
+    },
+    "city": "Mumbai",
+    "duration_hours": 4
+  },
+  {
+    "scenario_id": "return_rush",
+    "name": "Return Rush Restock",
+    "description": "Returns arrive after sale event; restock agent grades and relists Grade A returns to D2C before fresh replenishment.",
+    "impacted_styles": [
+      "Boston",
+      "Arizona",
+      "Mayari"
+    ],
+    "channel_multipliers": {
+      "D2C": 1.7,
+      "MYN": 1.2,
+      "AMZ": 1.1,
+      "NYK": 1.1,
+      "STORE": 1.0
+    },
+    "city": "Mumbai",
+    "duration_hours": 8
+  }
+]
