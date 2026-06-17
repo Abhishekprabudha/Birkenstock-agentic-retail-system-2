@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AIonOS × BIRKENSTOCK | Agentic Retail Command Center</title>
+  <meta name="description" content="Static GitHub Pages demo: AIonOS x BIRKENSTOCK Agentic Retail Command Center with JSON data, agent simulations and real-time scenario playback." />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo-mark">AI</div>
+      <div>
+        <p class="eyebrow">AIonOS × BIRKENSTOCK India</p>
+        <h1>Agentic Retail Command Center</h1>
+      </div>
+    </div>
+    <div class="top-actions">
+      <button class="ghost" id="btnExportState">Export State JSON</button>
+      <label class="ghost file-label" for="importState">Import JSON</label>
+      <input type="file" id="importState" accept="application/json" hidden />
+      <button class="primary" id="btnReset">Reset Demo</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero panel">
+      <div class="hero-copy">
+        <p class="kicker">No backend. JSON-powered. GitHub Pages-ready.</p>
+        <h2>The connected machine: agents detect, decide, approve and evidence every stock movement.</h2>
+        <p class="hero-sub">Synthetic SAP + Shopify + POS + WMS + marketplace feeds are unified into a live retail twin for 50 stores, D2C and marketplaces. Use scenarios to reproduce the Birkenstock pilot story in real time.</p>
+        <div class="hero-buttons">
+          <button class="primary large" data-scenario="mumbai_weekend_spike">Launch Mumbai Weekend Spike</button>
+          <button class="secondary large" data-scroll="controlTower">View Control Tower</button>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="orbit orb-a">SAP</div>
+        <div class="orbit orb-b">Shopify</div>
+        <div class="orbit orb-c">POS</div>
+        <div class="orbit orb-d">WMS</div>
+        <div class="ai-core">
+          <span>AgentOps</span>
+          <strong>Retail Twin</strong>
+        </div>
+        <div class="data-line l1"></div><div class="data-line l2"></div><div class="data-line l3"></div>
+      </div>
+    </section>
+
+    <section class="kpi-grid" id="kpiGrid"></section>
+
+    <section class="grid-two" id="controlTower">
+      <div class="panel">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Scenario Lab</p>
+            <h3>Reproduce Birkenstock retail pressure in one click</h3>
+          </div>
+          <span class="live-pill"><i></i> live simulation</span>
+        </div>
+        <div class="scenario-grid" id="scenarioGrid"></div>
+      </div>
+      <div class="panel live-feed-panel">
+        <div class="section-head compact">
+          <div>
+            <p class="eyebrow">Signal Stream</p>
+            <h3>Real-time agent telemetry</h3>
+          </div>
+          <button class="ghost small" id="btnPause">Pause</button>
+        </div>
+        <div class="feed" id="eventFeed"></div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Hero SKU Protection</p>
+          <h3>Arizona / Boston / Gizeh stockout radar</h3>
+        </div>
+        <div class="filter-row">
+          <select id="cityFilter"></select>
+          <select id="styleFilter"></select>
+        </div>
+      </div>
+      <div class="radar-grid" id="riskRadar"></div>
+    </section>
+
+    <section class="grid-two wide-left">
+      <div class="panel">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Agent Decision Layer</p>
+            <h3>Auditable recommendations</h3>
+          </div>
+          <button class="secondary" id="btnRecompute">Recompute Agents</button>
+        </div>
+        <div class="recommendations" id="recommendations"></div>
+      </div>
+      <div class="panel">
+        <div class="section-head compact">
+          <div>
+            <p class="eyebrow">AgentOps Core</p>
+            <h3>Six decision loops</h3>
+          </div>
+        </div>
+        <div class="agent-grid" id="agentGrid"></div>
+      </div>
+    </section>
+
+    <section class="grid-two">
+      <div class="panel">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Unified Retail Twin</p>
+            <h3>Store + D2C + marketplace inventory signal</h3>
+          </div>
+          <button class="ghost" id="btnDownloadTwin">Download Retail Twin</button>
+        </div>
+        <div class="table-wrap"><table id="retailTwinTable"></table></div>
+      </div>
+      <div class="panel">
+        <div class="section-head compact">
+          <div>
+            <p class="eyebrow">Inventory AI</p>
+            <h3>Physical vs digital exceptions</h3>
+          </div>
+        </div>
+        <div id="varianceList" class="variance-list"></div>
+      </div>
+    </section>
+
+    <section class="grid-two">
+      <div class="panel">
+        <div class="section-head compact">
+          <div>
+            <p class="eyebrow">Pilot ROI Pack</p>
+            <h3>Impact from synthetic baseline</h3>
+          </div>
+        </div>
+        <div class="impact-grid" id="impactGrid"></div>
+        <div class="chart-card">
+          <div class="chart-title">90-day baseline: fill-rate vs stockout events</div>
+          <div id="historyChart"></div>
+        </div>
+      </div>
+      <div class="panel">
+        <div class="section-head compact">
+          <div>
+            <p class="eyebrow">Evidence Layer</p>
+            <h3>Audit trail + mock execution objects</h3>
+          </div>
+        </div>
+        <div class="audit-list" id="auditList"></div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">JSON Data Room</p>
+          <h3>Every screen is reproduced from static JSON</h3>
+        </div>
+        <button class="ghost" id="btnShowJson">Show Current JSON</button>
+      </div>
+      <div class="data-room">
+        <div id="dataSheets" class="sheet-links"></div>
+        <pre id="jsonPreview" class="json-preview">Click “Show Current JSON” to inspect the current browser-stored state.</pre>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>AIonOS × BIRKENSTOCK India • Static demo • Synthetic data only</span>
+    <span>Runs on GitHub Pages without backend</span>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
